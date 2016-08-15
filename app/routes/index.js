@@ -21,6 +21,13 @@ var rentals = [{
   type: "Apartment",
   bedrooms: 3,
   image: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+},{
+  id: 4,
+  owner: "Tracy Green",
+  city: "Portland",
+  type: "Apartment",
+  bedrooms: 1,
+  image: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
 }];
 
 export default Ember.Route.extend({
