@@ -1,0 +1,9 @@
+<h2>Important announcements</h2>
+
+<ul>
+  {{#each model as |announcement|}}
+  <li>From: {{announcement.name}} Message: {{announcement.message}}</li>
+  {{/each}}
+</ul>
+
+{{#link-to 'index'}}Home{{/link-to}}
